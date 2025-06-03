@@ -1,0 +1,13 @@
+# Игнорировать файл workspace.json — это локальные настройки рабочего пространства Obsidian
+.obsidian/workspace.json
+.obsidian/appearance.json	
+
+# Плагины, которые пользователю не нужны / с приватными ключами
+.obsidian/plugins/digitalgarden/*
+.obsidian/plugins/remotely-save/*
+
+# Игнорировать временные файлы и кэш
+*.tmp
+*.temp
+*.bak
+

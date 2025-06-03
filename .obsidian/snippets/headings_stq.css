@@ -1,0 +1,34 @@
+/*body {
+  --h1-color: MidnightBlue;
+  --h2-color: DimGray;
+  --h3-color: MidnightBlue;
+}
+*/
+
+body {
+  --h1-color: #c0392b;
+  --h2-color: #8e44ad;
+  --h3-color: #a02920;
+  --h4-color: #6e348d;
+  --h5-color: #802015;
+  --h6-color: #5e346d;
+
+  --background-primary: #f8f8ed;
+  --background-secondary: #fcfcf5;
+
+  color: #656030;
+
+}
+
+/*
+body {
+  --h1-color: darkgoldenrod;
+  --h2-color: goldenrod;
+  --h3-color: gold;
+  --h4-color: yellow;
+  --h5-color: khaki;
+  --h6-color: lemonchiffon;
+
+  color: #5e4e0a;
+  --background-primary: lightyellow;
+}
