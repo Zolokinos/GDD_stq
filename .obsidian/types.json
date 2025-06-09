@@ -3,6 +3,8 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "process": "checkbox"
+    "process": "checkbox",
+    "День": "number",
+    "Требования": "text"
   }
 }
