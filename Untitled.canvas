@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"f8639e5c8819d1d1","x":-300,"y":230,"width":250,"height":50,"color":"3","type":"text","text":"Игра на уровне"},
+		{"id":"363958efd976a7ff","x":-420,"y":360,"width":245,"height":180,"type":"text","text":"Победа\n- Получение юнитов\n- Получение ресурса\n- Захват территории"},
+		{"id":"0aa4d5da66964589","x":-175,"y":360,"width":250,"height":180,"type":"text","text":"Поражение\n- Потеря юнитов\n- Потеря территории"},
+		{"id":"e0cbd130f9275a60","x":-422,"y":640,"width":250,"height":60,"type":"text","text":"Получение ресурсов за территорию"},
+		{"id":"e33a963d00ea613e","x":-420,"y":-100,"width":250,"height":240,"type":"text","text":"Начало дня:\n- Появление бонусных событий\n- Появление событий захвата\n- Появление событий защиты"}
+	],
+	"edges":[
+		{"id":"4180eb4db26fb682","fromNode":"e33a963d00ea613e","fromSide":"bottom","toNode":"f8639e5c8819d1d1","toSide":"top"},
+		{"id":"5e3736a3710e9842","fromNode":"f8639e5c8819d1d1","fromSide":"bottom","toNode":"363958efd976a7ff","toSide":"top"},
+		{"id":"0e7c8998df30704c","fromNode":"f8639e5c8819d1d1","fromSide":"bottom","toNode":"0aa4d5da66964589","toSide":"top"},
+		{"id":"90bf018be5b97df7","fromNode":"363958efd976a7ff","fromSide":"bottom","toNode":"e0cbd130f9275a60","toSide":"top"},
+		{"id":"e89a40a41ea1ff94","fromNode":"0aa4d5da66964589","fromSide":"bottom","toNode":"e0cbd130f9275a60","toSide":"right"},
+		{"id":"2b696e8b614a1946","fromNode":"e0cbd130f9275a60","fromSide":"left","toNode":"e33a963d00ea613e","toSide":"left"}
+	]
+}

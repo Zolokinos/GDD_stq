@@ -1,5 +1,6 @@
 {
   "enabledCssSnippets": [
-    "headings_stq"
+    "headings_stq",
+    "mermaid"
   ]
 }
